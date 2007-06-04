@@ -1,5 +1,5 @@
 Name:		dynagen
-Version:	0.9.0
+Version:	0.9.2
 Release:	%mkrel 1
 Group:		Emulators
 URL:		http://dyna-gen.sourceforge.net/
