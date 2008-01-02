@@ -9,6 +9,7 @@ Source:		http://downloads.sourceforge.net/dyna-gen/dynagen-%{version}.tar.gz
 Summary:	A configuration tool the dynamips Cisco router simulator
 License:	GPL
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-root
 #Requires:	dynamips
 
 
