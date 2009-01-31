@@ -1,5 +1,5 @@
 Name:		dynagen
-Version:	0.10.1
+Version:	0.11.0
 Release:	%mkrel 1
 Group:		Emulators
 URL:		http://dyna-gen.sourceforge.net/
@@ -10,6 +10,8 @@ Summary:	A configuration tool the dynamips Cisco router simulator
 License:	GPL
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-root
+Suggests:	dynamips >= 0.2.8
+Suggests:	xterm
 #Requires:	dynamips
 
 
@@ -32,7 +34,7 @@ done
 %install
 rm -Rf %{buildroot}
 mkdir -p %{buildroot}/{%{_datadir}/%{name},%{_sysconfdir},%{_bindir},%{python_sitelib}}
-install con* validate.py dynamips_lib.py %{buildroot}/%{_datadir}/%{name}
+install configspec *.py *.sh %{buildroot}/%{_datadir}/%{name}
 #install dynamips_lib.py %{buildroot}/%{python_sitelib}
 install -m755 dynagen %{buildroot}/%{_datadir}/%{name}
 install %{name}.ini %{buildroot}/%{_sysconfdir}
