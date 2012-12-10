@@ -53,3 +53,42 @@ rm -Rf %{buildroot}
 %doc docs sample_labs README.txt dynagen.ini
 
 
+
+
+%changelog
+* Sat Jan 31 2009 Buchan Milne <bgmilne@mandriva.org> 0.11.0-1mdv2009.1
++ Revision: 335804
+- New version 0.11.0
+-suggest xterm and dynamips (neither are required for use, but in many cases
+ would be useful to have)
+
+* Fri Jul 18 2008 Buchan Milne <bgmilne@mandriva.org> 0.10.1-1mdv2009.0
++ Revision: 238174
+- update to new version 0.10.1
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Tue Aug 21 2007 Buchan Milne <bgmilne@mandriva.org> 0.9.3-1mdv2008.0
++ Revision: 68199
+- New version 0.9.3
+
+* Mon Jun 04 2007 Buchan Milne <bgmilne@mandriva.org> 0.9.2-1mdv2008.0
++ Revision: 35017
+- New version 0.9.2
+
+
+* Sun Mar 11 2007 Buchan Milne <bgmilne@mandriva.org> 0.9.0-1mdv2007.1
++ Revision: 141268
+- New version 0.9.0
+- Import dynagen
+
+* Wed Jan 10 2007 Buchan Milne <bgmilne@mandriva.org> 0.8.3-1mdv
+- 0.8.3
+
+* Sat Jan 06 2007 Buchan Milne <bgmilne@mandriva.org> 0.8.2-1mdv
+- initial package
+
