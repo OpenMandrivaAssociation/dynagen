@@ -1,6 +1,6 @@
 Name:		dynagen
 Version:	0.11.0
-Release:	%mkrel 1
+Release:	2
 Group:		Emulators
 URL:		http://dyna-gen.sourceforge.net/
 Source:		http://downloads.sourceforge.net/dyna-gen/dynagen-%{version}.tar.gz
