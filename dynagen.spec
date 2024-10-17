@@ -2,7 +2,7 @@ Name:		dynagen
 Version:	0.11.0
 Release:	2
 Group:		Emulators
-URL:		http://dyna-gen.sourceforge.net/
+URL:		https://dyna-gen.sourceforge.net/
 Source:		http://downloads.sourceforge.net/dyna-gen/dynagen-%{version}.tar.gz
 # Patch for gdynagen, shipped in gdynagen tarball, merged in dynagen svn
 # http://gdynagen.sourceforge.net/
